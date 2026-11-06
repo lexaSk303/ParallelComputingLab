@@ -2,5 +2,6 @@
 
 public sealed record CalculationResult(
     long Sum, 
-    int Count);
+    int Count,
+    int MaxValue);
 
